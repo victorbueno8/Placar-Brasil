@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE033DBD-4D54-47E6-9DBA-041D856C3E3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Placar_Brasil</RootNamespace>
+    <AssemblyName>Placar_Brasil</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icons-Land-Sport-Soccer-Ball.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco_de_Dados.cs" />
+    <Compile Include="Classes\Campeonato.cs" />
+    <Compile Include="Classes\CampeonatoDAO.cs" />
+    <Compile Include="Classes\Equipe.cs" />
+    <Compile Include="Classes\EquipeDAO.cs" />
+    <Compile Include="Classes\Estadio.cs" />
+    <Compile Include="Classes\EstadioDAO.cs" />
+    <Compile Include="Classes\Jogador.cs" />
+    <Compile Include="Classes\JogadorDAO.cs" />
+    <Compile Include="Classes\Jogo.cs" />
+    <Compile Include="Classes\JogoDAO.cs" />
+    <Compile Include="Classes\OrganizadorDAO.cs" />
+    <Compile Include="Classes\Organizadores.cs" />
+    <Compile Include="Classes\ProfisionaisEquipe.cs" />
+    <Compile Include="Classes\Tecnico.cs" />
+    <Compile Include="Classes\TecnicoDAO.cs" />
+    <Compile Include="Classes\TorcedorDAO.cs" />
+    <Compile Include="Classes\Torcedores.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Forms\EditCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditCampeonato.Designer.cs">
+      <DependentUpon>EditCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditEquipeJogadorTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditEquipeJogadorTecnico.Designer.cs">
+      <DependentUpon>EditEquipeJogadorTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EditEstadio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EditEstadio.Designer.cs">
+      <DependentUpon>EditEstadio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Menu_Organizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Menu_Organizador.Designer.cs">
+      <DependentUpon>Main_Menu_Organizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main_Menu_Torcedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main_Menu_Torcedor.Designer.cs">
+      <DependentUpon>Main_Menu_Torcedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Placar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Placar.Designer.cs">
+      <DependentUpon>Placar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Registrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Registrar.Designer.cs">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashWindow.Designer.cs">
+      <DependentUpon>SplashWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\InterfaceDAO.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\EditCampeonato.resx">
+      <DependentUpon>EditCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditEquipeJogadorTecnico.resx">
+      <DependentUpon>EditEquipeJogadorTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EditEstadio.resx">
+      <DependentUpon>EditEstadio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Menu_Organizador.resx">
+      <DependentUpon>Main_Menu_Organizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main_Menu_Torcedor.resx">
+      <DependentUpon>Main_Menu_Torcedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Placar.resx">
+      <DependentUpon>Placar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Registrar.resx">
+      <DependentUpon>Registrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashWindow.resx">
+      <DependentUpon>SplashWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Society.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esporte-campo-de-futebol-Login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\campo_futebol_placar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futebol-de-campo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons-Land-Sport-Soccer-Ball.ico" />
+    <None Include="Resources\icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

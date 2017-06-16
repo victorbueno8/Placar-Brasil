@@ -1,0 +1,32 @@
+c:\users\victor\documents\visual studio 2015\Projects\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.exe.config
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.exe
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.pdb
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\bin\Debug\MySql.Data.dll
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Login.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Main_Menu.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Placar.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Registrar.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.SplashWindow.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Properties.Resources.resources
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.exe
+C:\Users\Victor\Documents\Visual Studio 2015\Projects\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.pdb
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.exe.config
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.exe
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.pdb
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.exe
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\bin\Debug\Placar_Brasil.pdb
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\bin\Debug\MySql.Data.dll
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.csprojResolveAssemblyReference.cache
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Login.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Placar.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Registrar.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.SplashWindow.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Properties.Resources.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.csproj.GenerateResource.Cache
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Main_Menu_Torcedor.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.Main_Menu_Organizador.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.EditCampeonato.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.EditEquipeJogadorTecnico.resources
+C:\Users\Victor\Documents\ADS - 647\T3 - LP2\P2\Placar_Brasil\Placar_Brasil\obj\Debug\Placar_Brasil.Forms.EditEstadio.resources
